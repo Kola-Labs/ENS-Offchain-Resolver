@@ -29,8 +29,7 @@ To be able to try out our code without modification, create the following table 
     CREATE TABLE `offchain_subdomains` (
       `domain` varchar(128) DEFAULT NULL,
       `subdomain` varchar(128) DEFAULT NULL,
-      `eth_address` varchar(128) DEFAULT NULL,
-      `token_id` bigint DEFAULT NULL
+      `eth_address` varchar(128) DEFAULT NULL
     );
 
 ## Step 4: Resolver Webserver
